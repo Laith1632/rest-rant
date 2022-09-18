@@ -11,6 +11,7 @@ app.use(express.static('public'))
 
 // Controllers & Routes
 app.use('/places', require('./controllers/places'))
+app.use(express.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => {
     res.render('home')
@@ -24,3 +25,5 @@ app.get('*', (req, res) => {
 app.listen(process.env.PORT, function(){
 
 console.log('listening on PORT 3000')})
+
+
