@@ -7,7 +7,7 @@ function home () {
           <main>
               <h1>HOME</h1>
 <div>
-  <img src="/images/cheesecake-ras.jpg" alt="raspberry cheesecake"></img>
+  <img src="/images/cheesecake-ras.jpg" alt="raspberry cheesecake"width="40%"/>
 </div>
 <div>
   Photo by <a href="AUTHOR_LINK">Anna Tukhfatullina</a> on<a href="UNSPLASH_LINK">Food Photographer/Stylist</a>
