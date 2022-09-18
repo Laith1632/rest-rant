@@ -6,6 +6,9 @@ function new_form () {
         <Def>
           <main>
             <h1>Add a New Place</h1>
+            
+            {/* /places/${data.id}?_method=PUT */}
+
             <form method="POST" action="/places">
                <div className="form-group">
                 <label htmlFor="name">Place Name</label>
