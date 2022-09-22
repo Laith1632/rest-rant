@@ -1,5 +1,5 @@
 const React = require('react')
-const Def = require('../default')
+const Def = require('../default.jsx')
 
 function new_form () {
     return (
@@ -9,7 +9,7 @@ function new_form () {
             
             {/* /places/${data.id}?_method=PUT */}
 
-            <form method="POST" action={'/places/${data.id}?_method=PUT'}>
+            <form method="POST" action= "/places">
                <div className="form-group">
                 <label htmlFor="name">Place Name</label>
                   <input className="form-control" id="name" name="name" required />
