@@ -7,16 +7,16 @@ function index (data) {
     return (
       <div className="col-sm-6">
         <h2>
-          <a href={'/places/${place.id}'}>
+          <a href={`/places/${place.id}`}>
             {place.name}
           </a>
-          </h2>
-      <p className="text-center">
-      {place.cuisines}
-      </p>
-        <img src={place.pic} alt={place.name} />
+        </h2>
         <p className="text-center">
-      Located in {place.city}, {place.state}
+          {place.cuisines}
+        </p>
+        <img src={place.pic} alt={place.name} width="100%"/>
+        <p className="text-center">
+          Located in {place.city}, {place.state}
         </p>
       </div>
     )
@@ -24,15 +24,14 @@ function index (data) {
   return (
     <Def>
         <main>
-            <h1>Places to Rant or Rave About</h1>
+            <h1>Top Tier Restaurants</h1>
             <div className="row">
-              {placesFormatted}
+            {placesFormatted}
             </div>
         </main>
     </Def>
-  )
+)
 }
-
 
 
 module.exports = index
