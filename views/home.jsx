@@ -10,7 +10,8 @@ function home () {
                   <img src="/images/cheesecake-ras.jpg" alt="raspberry cheesecake"width="40%"/>
                 </div>
                 <div>
-                  Photo by <a href="AUTHOR_LINK">Anna Tukhfatullina</a> on<a href="UNSPLASH_LINK">Food Photographer/Stylist</a>
+                 <h3> Photo by </h3><a href="AUTHOR_LINK">Anna Tukhfatullina</a> <a href="UNSPLASH_LINK">Food Photographer/Stylist</a>
+                
                 </div>
                 <a href="/places">
                   <button className="btn btn-primary">Places Page</button>
