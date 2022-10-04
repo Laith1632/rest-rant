@@ -23,17 +23,35 @@ nav a {
 }
 
 nav a:hover {
-    color: pink;
+    color: magenta;
     text-decoration: none;
 }
 
 body {
-  background-color: lightblue;
+  background-color: black;
   text-align: center;
 }
 
 main {
   margin-right: 20px;
   margin-left: 20px;
-  background-color: white;
+  background-color: black;
 }
+
+p {
+color:white
+}
+
+label {
+color: white;
+}
+
+img {
+  border: 1vw solid cornflowerblue;
+  border-radius: 25px ;
+}
+
+h2,h3,h4{
+  color: white;
+}
+
